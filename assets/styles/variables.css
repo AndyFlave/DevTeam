@@ -1,0 +1,16 @@
+:root {
+  /* colors */
+  --default-text-color: #fff;
+  --default-bg-color: #151616;
+
+  --shade-1: #ffcc01;
+  --shade-2: #31d6a5;
+  --shade-3: rgba(21,22,22,.8);
+
+  /* fonts */
+  --main-font-family: 'RussoOne', sans-serif;
+  --secondary-font-family: 'Ubuntu', sans-serif;
+
+  /* duration */
+  --duration: .3s;
+}

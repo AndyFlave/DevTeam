@@ -1,0 +1,44 @@
+.full-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  padding: 100px 15px 50px 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--shade-3);
+  z-index: 1;
+  transition: .3s;
+  transform: translateX(100%);
+}
+
+.full-menu:before {
+  top: 0;
+}
+
+.full-menu__navigation {
+  margin-top: -35px;
+}
+
+.full-menu__list {
+  display: grid;
+  gap: 35px;
+}
+
+.full-menu__item {
+  transition-property: background-color, color;
+  transition-duration: var(--duration);
+}
+
+.full-menu__item:hover {
+  color: var(--shade-1);
+}
+
+.full-menu__link {
+  font-size: 40px;
+}
+
+.active-full-menu .full-menu {
+  transform: translateX(0);
+}

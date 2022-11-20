@@ -1,0 +1,16 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 21px 30px 19px;
+  font-size: 16px;
+  font-family: inherit;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_primary {
+  background-color: var(--shade-1);
+}

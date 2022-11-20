@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "RussoOne";
+  font-style: normal;
+  font-weight: 400;
+  src: local("RussoOne"),
+    url("/assets/fonts/RussoOne.woff2") format("woff2"),
+    url("/assets/fonts/RussoOne.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu-regular"),
+    url("/assets/fonts/UbuntuRegular.woff2") format("woff2"),
+    url("/assets/fonts/UbuntuRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Ubuntu-bold"),
+    url("/assets/fonts/UbuntuBold.woff2") format("woff2"),
+    url("/assets/fonts/UbuntuBold.woff") format("woff");
+}
