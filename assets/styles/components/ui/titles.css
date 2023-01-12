@@ -1,0 +1,21 @@
+.title-primary {
+  font-size: 80px;
+  font-weight: 400;
+}
+
+@media (max-width: 1023) {
+  .title-primary {
+    font-size: 40px;
+  }
+}
+
+.title-secondary {
+  font-size: 55px;
+  letter-spacing: .5px;
+}
+
+@media (max-width: 1023) {
+  .title-secondary {
+    font-size: 28px;
+  }
+}

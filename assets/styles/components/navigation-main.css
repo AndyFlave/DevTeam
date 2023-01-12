@@ -1,0 +1,20 @@
+.navigation-main {
+  text-align: right;
+  pointer-events: all;
+}
+
+.navigation-main__item {
+  display: flex;
+}
+
+.navigation-main__link {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 18px;
+  transition-property: color;
+  transition-duration: var(--duration);
+}
+
+.navigation-main__item:hover {
+  color: var(--shade-1);
+}
