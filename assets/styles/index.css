@@ -6,15 +6,20 @@
 
 /* template */
 @import './components/template/header.css';
+@import './components/template/main.css';
 
 /* ui */
 @import './components/ui/buttons.css';
-@import './components/ui/menu.css';
-@import './components/ui/full-menu.css';
+@import './components/ui/titles.css';
+
+/* sections */
+@import './components/sections/first-screen.css';
+@import './components/sections/benefits.css';
 
 /* blocks */
-@import './components/first-screen.css';
-
+@import './components/menu-burger.css';
+@import './components/full-menu.css';
+@import './components/navigation-main.css';
 
 #space {
   position: absolute;

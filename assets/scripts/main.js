@@ -10,7 +10,7 @@ function initializeFullPageScript() {
 
 
 function activateFullMenu() {
-  let $menuButton = document.querySelector('.menu')
+  let $menuButton = document.querySelector('.menu-burger')
   let $body = document.querySelector('body')
 
   $menuButton.addEventListener('click', () => {
