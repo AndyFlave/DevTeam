@@ -9,6 +9,7 @@
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  border-radius: var(--br-1);
 }
 
 .btn_primary {

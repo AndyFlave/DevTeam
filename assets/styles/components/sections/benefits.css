@@ -1,1 +1,25 @@
 .benefits {}
+
+.benefits__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1140px;
+}
+
+.benefits__content {
+  grid-column: span 2;
+}
+
+.benefits__title {
+  margin-bottom: 10px;
+}
+
+.benefits__text {
+  margin: 5px 0;
+}
+
+.benefits__button {
+  margin-top: 15px;
+}

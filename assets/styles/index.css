@@ -8,9 +8,12 @@
 @import './components/template/header.css';
 @import './components/template/main.css';
 
-/* ui */
-@import './components/ui/buttons.css';
-@import './components/ui/titles.css';
+/* ui cards */
+@import './components/ui/cards/cards-square.css';
+
+/* ui base */
+@import './components/ui/base/buttons.css';
+@import './components/ui/base/titles.css';
 
 /* sections */
 @import './components/sections/first-screen.css';

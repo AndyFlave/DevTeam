@@ -39,6 +39,13 @@
 
 #fullpage {
   transition: .3s !important;
+  padding-right: 150px;
+}
+
+@media (max-width: 1023px) {
+  #fullpage {
+    padding-right: 0;
+  }
 }
 
 .active-full-menu #fullpage {
