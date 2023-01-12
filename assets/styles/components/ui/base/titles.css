@@ -10,12 +10,24 @@
 }
 
 .title-secondary {
-  font-size: 55px;
+  font-size: 48px;
   letter-spacing: .5px;
 }
 
 @media (max-width: 1023) {
   .title-secondary {
     font-size: 28px;
+  }
+}
+
+.title-tertiary {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+@media (max-width: 1023) {
+  .title-tertiary {
+    font-size: 18px;
   }
 }

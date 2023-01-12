@@ -7,6 +7,13 @@
   --shade-2: #31d6a5;
   --shade-3: rgba(21,22,22,.8);
 
+  /* gradients */
+
+  --gradient-1: linear-gradient(to right, #6c5553 0, #cb9b51 22%, #f6e27a 45%, #f6e27a 55%, #cb9b51 78%, #6c5553 100%);
+  --gradient-2: linear-gradient(139.56deg, #303134 10.06%, #282828 53.72%, #282828 88%);
+  /* border-radius */
+  --br-1: 4px;
+
   /* fonts */
   --main-font-family: 'RussoOne', sans-serif;
   --secondary-font-family: 'Ubuntu', sans-serif;
